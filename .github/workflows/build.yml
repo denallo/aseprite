@@ -94,5 +94,5 @@ jobs:
       with:
         name: aseprite
         path: |
-          D:a/denallo/aseprite/build/bin/data
-          D:a/denallo/aseprite/build/bin/aseprite.exe       
+          D:/a/denallo/aseprite/build/bin/data
+          D:/a/denallo/aseprite/build/bin/aseprite.exe       
