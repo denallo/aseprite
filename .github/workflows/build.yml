@@ -18,10 +18,6 @@ jobs:
           - build_type: RelWithDebInfo
             scripting: noscripts
     steps:
-    - name: Verify Build Output
-      run: |
-        dir build\bin\data
-        dir build\bin\aseprite.exe
     - uses: actions/checkout@v4
       with:
         submodules: 'recursive'
